@@ -6,25 +6,57 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
+  --koble-dark: #17332a;
+  --koble-light: #94ad61;
+  --ifm-color-primary: var(--koble-dark);
+  --ifm-color-primary-dark: #122821;
+  --ifm-color-primary-darker: #0f211b;
   --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-light: #21463a;
+  --ifm-color-primary-lighter: #2a5a4a;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Link */
+  --ifm-link-color: var(--koble-dark);
+  
+  /* Button */
+  --ifm-button-background-color: var(--koble-dark);
+  --ifm-button-color: #ffffff;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: var(--koble-dark);
+  --ifm-navbar-link-hover-color: var(--koble-light);
+
+  /* Footer */  
+  --ifm-footer-background-color: var(--koble-dark);
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-link-color: var(--koble-light);
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary: var(--koble-light);
+  --ifm-color-primary-dark: #7f9855;
+  --ifm-color-primary-darker: #6f854b;
   --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-light: #a6bc78;
+  --ifm-color-primary-lighter: #b8cb90;
   --ifm-color-primary-lightest: #4fddbf;
+
+  /* Link */
+  --ifm-link-color: var(--koble-light);
+
+  /*Navbar*/
+  --ifm-navbar-background-color: var(--koble-dark);
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: var(--koble-light);
+
+  /* Footer */
+  --ifm-footer-background-color: #0f211b;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
