@@ -1,0 +1,73 @@
+# System Requirements for EBMS
+
+## Client / Workstation
+
+### Operating Systems Requirements
+* **Supported Versions:** Windows 10 and Windows 11
+* **Editions:** Pro and Enterprise
+* **Note:** Only operating systems within Microsoft's support end date will be supported by Koble Systems. Check [Microsoft's Product Lifecycle](https://learn.microsoft.com/en-us/lifecycle/) dates to plan your replacement schedule. For example, Windows 10 22H2 support ends October 14, 2025.
+
+### Minimum Hardware Requirements
+*Be aware that the minimum operating system requirements are the minimum necessary to run the Koble Systems (EBMS) program. Your system may have sufficient resources to run EBMS, but not in an efficient manner. See your company's computer consultant or a Koble Systems support consultant for more details or recommendations.*
+
+* **CPU:** Intel i3 CPU or greater.
+* **RAM:** 3 GB of RAM or higher.
+* **Storage:** Minimum of 20 gigabyte of free disk space initially (space requirements may increase with use).
+* **Printer:** Most recent printer driver. Download updated drivers from the manufacturer's website.
+* **Display:** Monitor with a resolution of 1366x768. Greater resolution is advantageous for lengthy documents and lists.
+
+### Recommended Hardware Requirements
+* **CPU:** Intel i5 CPU or greater.
+* **RAM:** 8 GB of RAM or higher.
+* **Storage:** Minimum of 20 gigabyte of free disk space initially.
+* **Printer:** Most recent printer driver.
+* **Display:** Monitor with resolution of 1600x1040.
+
+---
+
+## EBMS Data Server
+*The EBMS Data Server may be installed on a server hosted in a virtual environment.*
+
+### Operating Systems
+* **Windows Server with Desktop Experience**
+* **Note:** Only Windows Server versions in Microsoft's Mainstream Support Phase will be supported by Koble Systems. Check [Microsoft's Product Lifecycle](https://learn.microsoft.com/en-us/lifecycle/) dates to plan your replacement schedule. For example, Windows Server 2012 R2 support ended October 2023.
+
+> Landis Technologies has partnered with Koble Systems to recommend the best server technology for Koble's EBMS software. Their research has enabled them to identify the optimal server technology to maximize the performance of EBMS.
+
+### Recommended Hardware Requirements
+*Each business needs to determine their individual server requirements based on the number of users and the functions the server will be expected to perform.*
+
+* **CPU:** Intel Xeon CPU or similar. Clock speeds of 3.0 ghz or more are strongly encouraged. (EBMS only uses a second thread occasionally).
+* **RAM:** 16 GB of RAM or higher.
+* **Storage:** Solid State hard drive (SSD) for EBMS data.
+* **Disk Space:** Minimum of 100 gigabyte of free disk space initially. Disk space requirements may increase with use; EBMS upgrades may require up to 3x the initial space.
+* **Printer:** Most recent printer driver.
+* **Display:** Monitor with resolution of 1366x768.
+* **OS:** Windows Server operating system.
+
+---
+
+## Network
+* **Wired Connection:** A wired gigabit network is **required** to use EBMS on a network and ensures maximum performance. 
+* **Infrastructure:** Ensure all network cables are securely connected, not pinched, or traveling around corners with a radius tighter than 2". Network switches and individual server/workstation network adapters require gigabit speed to insure sufficient communication speed.
+* **Wireless Policy:** Using a WiFi network to connect the EBMS Client/Workstation to the EBMS data server is **not supported**. The only exceptions are the **TimeTrack App** and **MyEBMS** products.
+
+## Internet Connection
+An internet connection is not required for EBMS. However, some features or external apps might require a connection:
+* Mobile apps accessing data outside your network.
+* Using **SQL Mirror** to mirror data to a cloud database.
+* **Static IP:** It is recommended to have a static IP address to ensure consistent connections to outside services like SQL Mirror or Keystone.
+
+## Printer Requirements
+A graphics printer is required since reports are printed in graphics mode for clarity and style. It is recommended that an inkjet or laser printer be used for reports rather than a dot matrix printer.
+
+### Recommended Printers
+* **Laser Printer:** Recommended for lengthy reports for greater speed.
+* **Inkjet Printer:** Recommended if color is required or if speed is not a critical issue.
+* **Zebra Label Printer:** For printing inventory and bin labels.
+* **Epson Receipt Printer:** For Point of Sale (POS) receipts.
+
+*Note: EBMS works with most laser and inkjet printers, though HP and Xerox often deliver the best compatibility. Operating systems and drivers vary, which may affect speed and margin configuration.*
+
+## Apps
+EBMS Apps are available for MS Windows tablets, Android, and iOS smartphones. Review the **Using Apps with EBMS** section for requirement details and operating system options.

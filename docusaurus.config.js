@@ -83,24 +83,19 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Koble Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Koble Logo',
+          src: 'img/koble.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'kobleSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+        
         ],
       },
       footer: {
@@ -110,7 +105,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],
@@ -119,16 +114,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Koble Systems',
+                href: 'https://koblesystems.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Roles',
+                href: 'https://loop.cloud.microsoft/p/eyJ3Ijp7InUiOiJodHRwczovL2VzaGNvbXB1dGVyLnNoYXJlcG9pbnQuY29tLz9uYXY9Y3owbE1rWW1aRDFpSVhZNGMxZFRlWEpJTFd0RFJWZzNPV1JOV2tsaVVqSkJlVjl0YzBKaVRHUkRkbFF5TFdoblQyTjNZWEZrZWtsNE9Ia3pTMnBTYjBGbWNsbHJjM1k0U0hjbVpqMHdNVmhNTjB4RFZsRkdTREpITWtGTVFWTk5Va05aU1ZwWlRrVkRVMEV5V2t3ekptTTlKbVpzZFdsa1BURSUzRCIsInIiOmZhbHNlfSwicCI6eyJ1IjoiaHR0cHM6Ly9lc2hjb21wdXRlci5zaGFyZXBvaW50LmNvbS86Zmw6L3IvY29udGVudHN0b3JhZ2UvQ1NQXzRiMTZjYmJmLWM3MmEtNDBmYS04NDVmLWJmNWQzMTkyMWI0Ny9Eb2N1bWVudCUyMExpYnJhcnkvTG9vcEFwcERhdGEvVW50aXRsZWQubG9vcD9kPXdiYWUzNmZhN2Q1ZjA0YmIzODZlZTViNmVlYzE3NGE2OCZjc2Y9MSZ3ZWI9MSZuYXY9Y3owbE1rWmpiMjUwWlc1MGMzUnZjbUZuWlNVeVJrTlRVRjgwWWpFMlkySmlaaTFqTnpKaExUUXdabUV0T0RRMVppMWlaalZrTXpFNU1qRmlORGNtWkQxaUlYWTRjMWRUZVhKSUxXdERSVmczT1dSTldrbGlVakpCZVY5dGMwSmlUR1JEZGxReUxXaG5UMk4zWVhGa2VrbDRPSGt6UzJwU2IwRm1jbGxyYzNZNFNIY21aajB3TVZoTU4weERWbFpJVGpkU00xWTBSMVpYVGtaWlRqTlRNMDR6VjBKUFUxUkpKbU05SlRKR0ptWnNkV2xrUFRFbVlUMU1iMjl3UVhCd0puQTlKVFF3Wm14MWFXUjRKVEpHYkc5dmNDMXdZV2RsTFdOdmJuUmhhVzVsY2laNFBTVTNRaVV5TW5jbE1qSWxNMEVsTWpKVU1GSlVWVWg0YkdNeWFHcGlNakYzWkZoU2JHTnBOWHBoUjBaNVdsaENkbUZYTlRCTWJVNTJZbGg0YVVsWVdUUmpNV1JVWlZoS1NVeFhkRVJTVm1jelQxZFNUbGRyYkdsVmFrcENaVlk1ZEdNd1NtbFVSMUpFWkd4UmVVeFhhRzVVTWs0eldWaEdhMlZyYkRSUFNHdDZVekp3VTJJd1JtMWpiR3h5WXpOWk5GTklaRGhOUkVaWlZFUmtUVkV4V2xKU2EyZDVVbnBLUWxSRlJsUlVWa3BFVjFWc1lWZFZOVVpSTVU1Q1RXeHdUVTEzSlRORUpUTkVKVEl5SlRKREpUSXlhU1V5TWlVelFTVXlNamxrTlRaak16VTJMVEV4WmpRdE5EVmpNQzFpT0dFMUxUazBObVl3WVRsak5tSm1NeVV5TWlVM1JBJTNEJTNEIiwiciI6ZmFsc2V9LCJpIjp7ImkiOiI5ZDU2YzM1Ni0xMWY0LTQ1YzAtYjhhNS05NDZmMGE5YzZiZjMifX0%3D',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Org Chart',
+                href: 'https://miro.com/app/board/uXjVKNl3iUs=/',
               },
             ],
           },
@@ -136,12 +131,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Knowlege Base',
+                href: 'https://koblesystems.com/knowledge'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Boggle',
+                href: 'http://bog.eshcom.com:56565/?q=user',
+              },
+              {
+                label: 'OneNote',
+                href: 'https://eshcomputer-my.sharepoint.com/personal/bryan_l_koblesystems_com/_layouts/Doc.aspx?sourcedoc={7BCBF55C-C9A3-4CAB-99D7-5445615CD42E}&end=()&endonenote:https://eshcomputer-my.sharepoint.com/personal/bryan_l_koblesystems_com/Documents/EBMS%20Knowledge%20Base/',
               },
             ],
           },

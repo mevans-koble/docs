@@ -1,0 +1,28 @@
+# EBMS Data Backup
+
+Koble Systems recommends using an **enterprise-level backup solution** to back up your EBMS data folder. 
+
+> **Important:** Inexpensive or consumer-grade backup solutions can hold files open, which may prevent EBMS from functioning correctly. 
+
+### Recommendations
+* **Frequency:** Back up the full data set regularly.
+* **Scheduling:** Schedule backups during **off-peak hours** to minimize the impact on system performance.
+* **Responsibility:** Koble Systems is not responsible for lost data due to backup failures.
+* **Support:** EBMS does **not** provide a built-in backup utility. If you need help finding an enterprise solution, contact your IT provider or our partner, **Landis Technologies**, at **717-733-0793**.
+
+---
+
+## Manual Backup Steps
+
+If you need to perform a manual backup, follow these steps:
+
+1. **Locate the Server Data:** Find the server location where the main EBMS data folder is stored. 
+   * *Note: Do not confuse this with the local client software on your workstation.* * Review the [Server Manager Overview](./intro) to identify all active EBMS data sets.
+2. **Verify File Types:** Ensure the data directory contains the following file types:
+   * `*.DBF`
+   * `*.CDX`
+   * `*.FPT`
+3. **Confirm Active Directory:** Verify you are in the correct folder by checking the **Date Modified** attribute on the main EBMS files; it should reflect recent activity.
+4. **Copy Data:** Copy the **entire** data directory to your secure backup location.
+
+---
